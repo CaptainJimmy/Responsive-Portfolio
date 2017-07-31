@@ -43,7 +43,7 @@ section {
 	padding: 20px;
 	margin: 20px;
 	background: white;
-	width: 45%;
+	width: 55%;
 	float: left;
 	border-radius: 15px;
 	position: relative;
@@ -129,6 +129,64 @@ footer {
 	text-align: left;
 }
 
+div#boxleft {
+	float: left;
+	height: 200px;
+	width: 200px;
+	background-color:  #adbad4;
+	padding: 20px;
+	margin: 20px;
+}
+
+div#boxright {
+	float: right;
+	height: 200px;
+	width: 200px;
+	background-color:  #adbad4;
+	padding: 20px;
+	margin: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+/*  word-wrap: normal;*/
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: normal;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
 @media screen and (max-width: 980px) {
 	header {
 		padding: 15px;
@@ -149,6 +207,27 @@ footer {
 	height: 70px;
 	margin-top: 40px;
 	}
+
+	div#boxleft {
+	float: left;
+	height: 150px;
+	width: 150px;
+	background-color:  #adbad4;
+	padding: 8px;
+	margin: 8px;
+}
+
+	div#boxright {
+	float: right;
+	height: 150px;
+	width: 150px;
+	background-color:  #adbad4;
+	padding: 8px;
+	margin: 8px;
+}
+	.container {
+}
+
 }
 @media screen and (max-width: 768px) {
 	header {
@@ -165,6 +244,7 @@ footer {
 	aside {
 		margin: 0px;
 	}
+	
 }
 
 @media screen and (max-width: 640px) {
@@ -186,6 +266,21 @@ footer {
 		float: none;	
 		width: 100%;
 		margin: 0px;
+		margin-top: 20px;
 	}
+	div#boxleft {
+	float: none;
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+
+	div#boxright {
+	float: none;
+	height: 200px;
+	width: 200px;
+		position: relative;
+
+}
 }
 
