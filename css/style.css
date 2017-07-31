@@ -128,3 +128,20 @@ footer {
 .inputboxes {
 	text-align: left;
 }
+
+@media screen and (min-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+header {
+		float: none;
+
+	}
+	nav {
+		float: none;
+		padding: 0px;
+	}
+}
