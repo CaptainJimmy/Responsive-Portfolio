@@ -146,12 +146,9 @@ footer {
 	aside {
 	}
 	#topBar {
-	padding: 20px;
-	width: 100%;
 	height: 70px;
 	margin-top: 40px;
-	background: #006644;
-}
+	}
 }
 @media screen and (max-width: 768px) {
 	header {
